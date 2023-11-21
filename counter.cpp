@@ -39,7 +39,7 @@ int main() {
 
     Counter counter;
 
-    while (!WindowShouldClose()) {
+    while (!WindowShouldClose() && !IsKeyPressed(KEY_ESCAPE) && !IsKeyPressed(KEY_Q)) {
         int w = GetRenderWidth();
         int h = GetRenderHeight();
 
