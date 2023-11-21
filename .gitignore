@@ -1,0 +1,8 @@
+counter
+build/*
+
+.vscode/*
+.history/
+*.vsix
+.history
+.ionide
